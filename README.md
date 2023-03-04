@@ -2,7 +2,7 @@
 
 This little project contains the source code for a serverless application that you are able to deploy with AWS SAM CLI. It is the example used by FastAPI, but slightly reworked in order for it to be deployable via AWS SAM. It contains the following folders and files:
 
-- example - Python 3.x code for the application's Lambda function. It's basically a FastAPI app, with a mangum wrapper.
+- example - Python 3.9 (Latest version available on Amazon Lambda, still? Come'mon Amazon...) code for the application's Lambda function. It's basically a FastAPI app, with a mangum wrapper.
 - template.yaml - The template for AWS SAM that defines the application's AWS resources. There is no included security so if deployed, your API will be public.
 
 ## Deploying
