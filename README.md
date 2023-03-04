@@ -15,3 +15,27 @@ Then:
 sam build
 sam deploy --guided
 ```
+
+At the end of a successful deploy, you should get something similar to this:
+
+```bash
+-----------------------------------------------------------------------------
+Outputs
+-----------------------------------------------------------------------------
+Key                 ApiUrl
+Description         URL of your API
+Value               https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/
+-----------------------------------------------------------------------------
+```
+
+That is the URL of your endpoint.
+
+## Deleting
+
+To delete what you just created, just type:
+
+```bash
+sam delete --stack-name aws-sam-fastapi-example
+```
+
+It will delete your AWS Lambda fuction, AWS API Endpoints, AWS S3 objects (artifacts) and AWS CloudFormation stack related to the application.
