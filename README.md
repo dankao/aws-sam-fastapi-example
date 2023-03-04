@@ -34,7 +34,7 @@ That is the URL of your endpoint. If you access the endpoint with your browser, 
 {"Hello":"World"}
 ```
 
-If you access the URL with /docs, it should display the automatic API documenation provided by Swagger UI.
+If you access the URL with `/docs`, it should display the automatic API documenation provided by Swagger UI.
 
 ## Deleting
 
