@@ -11,13 +11,6 @@ This little project contains the source code for a serverless application that y
 
 Then:
 
-- Either manually `git clone https://github.com/dankao/aws-sam-fastapi-example.git` and change directory.
-- Or make a directory called `aws-sam-fastapi-example`, `cd` into it and run:
-  - `sam init --location gh:dankao/aws-sam-fastapi-example.git` OR
-  - `sam init --location git+ssh://git@github.com/dankao/aws-sam-fastapi-example.git`
-
-After you have the code:
-
 ```bash
 sam build
 sam deploy --guided
