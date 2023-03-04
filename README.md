@@ -28,7 +28,13 @@ Value               https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/
 -----------------------------------------------------------------------------
 ```
 
-That is the URL of your endpoint.
+That is the URL of your endpoint. If you access the endpoint with your browser, it should respond with the automatic interactive API documentation provided by Swagger UI.
+
+```bash
+{"Hello":"World"}
+```
+
+If you access the URL with /docs, it should display the automatic API documenation provided by Swagger UI.
 
 ## Deleting
 
