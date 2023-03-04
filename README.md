@@ -34,9 +34,7 @@ That is the URL of your endpoint. If you access the endpoint with your browser, 
 {"Hello":"World"}
 ```
 
-If you access the URL with /docs, it should display the automatic API documenation provided by Swagger UI. It should look similar to this except at your Amazon AWS endpoint URL.
-
-![image](<img src="https://fastapi.tiangolo.com/img/index/index-03-swagger-02.png" width="600">)
+If you access the URL with /docs, it should display the automatic API documenation provided by Swagger UI.
 
 ## Deleting
 
